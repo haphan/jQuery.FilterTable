@@ -30,7 +30,7 @@
                 containerTag:      'p',                 // tag name of the container
                 hideTFootOnFilter: false,               // if true, the table's tfoot(s) will be hidden when the table is filtered
                 highlightClass:    'alt',               // class applied to cells containing the filter term
-                inputSelector:     null,                // use the element with this selector for the filter input field instead of creating one
+                filterSelector:     null,                // use the element with this selector for the filter input field instead of creating one
                 inputName:         '',                  // name of filter input field
                 inputType:         'search',            // tag name of the filter input tag
                 label:             'Filter:',           // text to precede the filter input tag
